@@ -1,0 +1,63 @@
+body {
+    background-color: #141414;
+    color: white;
+}
+
+
+header {
+    background: linear-gradient(to right, #000000, #1c1c1c);
+}
+
+
+.card-filme {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card-filme:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}
+.titulo-filmes {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e50914; /* vermelho estilo Netflix */
+    letter-spacing: 2px;
+}
+
+
+.card-filme img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.card-filme h5 {
+    font-size: 16px;
+}
+
+
+.estrelas span {
+    cursor: pointer;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.estrelas span.ativo {
+    color: gold;
+}
+
+
+.btn-fav {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-fav.ativo {
+    color: red;
+}
